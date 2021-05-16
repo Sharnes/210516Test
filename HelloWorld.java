@@ -22,12 +22,10 @@ public class HelloWorld extends HttpServlet {
 		res.setContentType("text/html; charset=Big5"); //簡易版
 		PrintWriter out = res.getWriter();
 
-
-
 		out.println("<HTML>");
 		out.println("<HEAD><TITLE>Hello World</TITLE></HEAD>");
 		out.println("<BODY>");
-		out.println("<BIG>Hello World , 世界你好22 !</BIG>");
+		out.println("<BIG>Hello World , 世界你好 !</BIG>");
 		out.println("<p>" + getServletContext().getAttribute(ServletContext.TEMPDIR) + "</p>");
 		out.println("</BODY></HTML>");
 

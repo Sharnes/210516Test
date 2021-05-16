@@ -25,7 +25,7 @@ public class HelloWorld extends HttpServlet {
 		out.println("<HTML>");
 		out.println("<HEAD><TITLE>Hello Sally</TITLE></HEAD>");
 		out.println("<BODY>");
-		bye();
+		out.println("<BIG>Hello World , 世界你好 !</BIG>");
 		out.println("<p>" + getServletContext().getAttribute(ServletContext.TEMPDIR) + "</p>");
 		out.println("</BODY></HTML>");
 
